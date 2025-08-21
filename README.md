@@ -87,14 +87,6 @@ npm run preview
 
 ---
 
-## 📸 Screenshots
-
-### Flow Builder
-
-![Flow Builder](https://raw.githubusercontent.com/gargdev/chatbot-flow-builder/main/screenshots/flow-builder.png)
-
----
-
 ## 📝 Submission Details
 
 - **Live Link:** [https://anoopchatbotflowbuilder.netlify.app/](https://anoopchatbotflowbuilder.netlify.app/)
@@ -105,7 +97,7 @@ npm run preview
 ## 👨‍💻 Author
 
 **Anoop Pandey**
-[LinkedIn](https://www.linkedin.com/in/anooppandey) • [GitHub](https://github.com/gargdev)
+[LinkedIn](https://www.linkedin.com/in/anoop-pandey/) • [GitHub](https://github.com/gargdev)
 
 ```
 
