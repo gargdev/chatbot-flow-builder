@@ -9,15 +9,6 @@ interface SettingsPanelProps {
   isMobile: boolean;
 }
 
-/**
- * Settings Panel Component
- * 
- * Features:
- * - Appears when a node is selected
- * - Allows editing of node properties (currently text content)
- * - Real-time updates to the selected node
- * - Extensible for different node types and their properties
- */
 const SettingsPanel: React.FC<SettingsPanelProps> = ({ 
   selectedNode, 
   onUpdateNodeText,

@@ -1,16 +1,7 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import { Handle, Position, NodeProps } from 'reactflow';
 import { MessageCircle } from 'lucide-react';
 
-/**
- * Custom Text Node Component
- * 
- * Features:
- * - Displays text message content
- * - Source handle (right) - only allows one outgoing connection
- * - Target handle (left) - allows multiple incoming connections
- * - Visual feedback when selected
- */
 const TextNode = memo(({ data, selected }: NodeProps) => {
   return (
     <div 

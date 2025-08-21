@@ -12,13 +12,6 @@ interface SidebarProps {
   onMobileAddNode: () => void;
 }
 
-/**
- * Sidebar Component
- * 
- * Conditionally renders either:
- * - NodesPanel: When no node is selected (for dragging new nodes)
- * - SettingsPanel: When a node is selected (for editing node properties)
- */
 const Sidebar: React.FC<SidebarProps> = ({ 
   selectedNode, 
   onUpdateNodeText, 

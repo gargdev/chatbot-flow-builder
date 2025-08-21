@@ -10,14 +10,6 @@ interface SaveFlowModalProps {
   isUpdate?: boolean;
 }
 
-/**
- * Save Flow Modal Component
- * 
- * Features:
- * - Flow name and description input
- * - Validation for required fields
- * - Support for both new saves and updates
- */
 const SaveFlowModal: React.FC<SaveFlowModalProps> = ({
   isOpen,
   onClose,

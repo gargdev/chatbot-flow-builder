@@ -10,16 +10,6 @@ interface FlowListProps {
   isMobile: boolean;
 }
 
-/**
- * Flow List Component
- * 
- * Features:
- * - Display all saved flows
- * - Create new flow
- * - Load existing flow
- * - Delete flows
- * - Flow metadata display
- */
 const FlowList: React.FC<FlowListProps> = ({ 
   onSelectFlow, 
   onCreateNew, 
@@ -51,7 +41,7 @@ const FlowList: React.FC<FlowListProps> = ({
       flowStorage.deleteFlow(flowId);
       loadFlows();
       setDeleteConfirm(null);
-    } catch (error) {
+    } catch {
       alert('Failed to delete flow');
     }
   };

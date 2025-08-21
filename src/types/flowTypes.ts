@@ -1,9 +1,3 @@
-/**
- * Flow Management Types
- * 
- * Defines interfaces for flow storage, metadata, and management
- */
-
 export interface FlowMetadata {
   id: string;
   name: string;

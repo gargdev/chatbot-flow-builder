@@ -7,14 +7,6 @@ interface MobileDragHelperProps {
   onClose: () => void;
 }
 
-/**
- * Mobile Drag Helper Component
- * 
- * Features:
- * - Mobile-friendly node addition
- * - Tap to place nodes instead of drag and drop
- * - Visual feedback for node placement
- */
 const MobileDragHelper: React.FC<MobileDragHelperProps> = ({
   onAddNode,
   isVisible,

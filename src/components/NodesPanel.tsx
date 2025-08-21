@@ -16,24 +16,8 @@ const availableNodes = [
     description: 'Send a text message to the user',
     color: 'bg-blue-50 border-blue-200 hover:bg-blue-100',
   },
-  // Future node types can be added here:
-  // {
-  //   type: 'input' as NodeType,
-  //   label: 'User Input',
-  //   icon: Keyboard,
-  //   description: 'Collect input from the user',
-  //   color: 'bg-green-50 border-green-200 hover:bg-green-100',
-  // },
 ];
 
-/**
- * Nodes Panel Component
- * 
- * Features:
- * - Displays all available node types
- * - Drag and drop functionality for adding nodes to flow
- * - Extensible design for adding new node types
- */
 const NodesPanel: React.FC<NodesPanelProps> = ({ isMobile, onMobileAddNode }) => {
   // Handle drag start - set the node type in dataTransfer
   const onDragStart = (event: React.DragEvent, nodeType: string) => {

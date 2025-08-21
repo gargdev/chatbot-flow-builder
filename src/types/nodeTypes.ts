@@ -1,10 +1,3 @@
-/**
- * Node Types Definition
- * 
- * This file defines all available node types in the flow builder.
- * Adding new types here makes them available throughout the application.
- */
-
 // Currently supported node types
 export type NodeType = 'text';
 

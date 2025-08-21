@@ -1,9 +1,3 @@
-/**
- * Flow Storage Utilities
- * 
- * Handles saving, loading, and managing flows in localStorage
- */
-
 import { SavedFlow, FlowMetadata } from '../types/flowTypes';
 
 const FLOWS_STORAGE_KEY = 'chatbot_flows';
