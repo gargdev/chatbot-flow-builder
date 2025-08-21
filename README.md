@@ -1,4 +1,3 @@
-````markdown
 # 🧩 Chatbot Flow Builder
 
 A simple and extensible **Chatbot Flow Builder** built using **React**, **React Flow**, **TypeScript**, and **TailwindCSS**.  
@@ -7,11 +6,13 @@ This project was created as part of the **BiteSpeed Frontend Task**.
 ---
 
 ## 🚀 Live Demo
+
 🔗 [Chatbot Flow Builder – Live](https://anoopchatbotflowbuilder.netlify.app/)
 
 ---
 
 ## ✨ Features
+
 - **Text Node**: Supports adding multiple text message nodes.
 - **Drag & Drop Node Panel**: Easily add nodes to the flow.
 - **Connections (Edges)**: Connect nodes using source and target handles.
@@ -28,6 +29,7 @@ This project was created as part of the **BiteSpeed Frontend Task**.
 ---
 
 ## 🛠️ Tech Stack
+
 - ⚡ **Vite** – Fast bundler & dev server
 - ⚛️ **React 18**
 - 🎨 **TailwindCSS**
@@ -39,10 +41,11 @@ This project was created as part of the **BiteSpeed Frontend Task**.
 ## 📦 Getting Started
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/gargdev/chatbot-flow-builder.git
 cd chatbot-flow-builder
-````
+```
 
 ### 2. Install Dependencies
 
@@ -98,8 +101,8 @@ npm run preview
 
 ## 📝 Submission Details
 
-* **Live Link:** [https://anoopchatbotflowbuilder.netlify.app/](https://anoopchatbotflowbuilder.netlify.app/)
-* **Repo Link:** [https://github.com/gargdev/chatbot-flow-builder](https://github.com/gargdev/chatbot-flow-builder)
+- **Live Link:** [https://anoopchatbotflowbuilder.netlify.app/](https://anoopchatbotflowbuilder.netlify.app/)
+- **Repo Link:** [https://github.com/gargdev/chatbot-flow-builder](https://github.com/gargdev/chatbot-flow-builder)
 
 ---
 
@@ -109,4 +112,5 @@ npm run preview
 [LinkedIn](https://www.linkedin.com/in/anooppandey) • [GitHub](https://github.com/gargdev)
 
 ```
+
 ```
