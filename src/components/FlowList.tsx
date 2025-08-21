@@ -132,6 +132,9 @@ const FlowList: React.FC<FlowListProps> = ({
             <p className={`${isMobile ? "text-xs" : "text-sm"} text-gray-500`}>
               Create your first chatbot flow to get started
             </p>
+            <p className={`${isMobile ? "text-xs" : "text-sm"} text-gray-500`}>
+              Refresh if you saved any flow and not getting dispalyed
+            </p>
           </div>
         ) : (
           <div className={`${isMobile ? "p-2 space-y-2" : "p-4 space-y-3"}`}>
