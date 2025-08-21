@@ -79,12 +79,8 @@ npm run preview
 
 ```
 .
-├── public/               # Static assets
 ├── src/                  # Source code
 │   ├── components/       # Reusable React components
-│   ├── nodes/            # Node types (extensible)
-│   ├── panels/           # Node panel & settings panel
-│   └── main.tsx          # App entry point
 ├── package.json
 └── vite.config.ts
 ```
