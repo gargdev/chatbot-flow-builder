@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from 'react';
+import React, { useState, useCallback } from 'react';
 import ReactFlow, {
   Node,
   Edge,
@@ -11,7 +11,7 @@ import ReactFlow, {
   BackgroundVariant,
   MarkerType,
   ConnectionMode,
-  getOutgoers,
+  // getOutgoers,
   getIncomers,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
@@ -268,7 +268,7 @@ function App() {
       updateLastSavedState();
       
       alert('Flow saved successfully!');
-    } catch (error) {
+    } catch  {
       alert('Failed to save flow. Please try again.');
     }
   }, [currentFlowId, nodes, edges, updateLastSavedState]);

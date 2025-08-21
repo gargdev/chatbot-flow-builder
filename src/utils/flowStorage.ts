@@ -1,4 +1,4 @@
-import { SavedFlow, FlowMetadata } from '../types/flowTypes';
+import { SavedFlow } from '../types/flowTypes';
 
 const FLOWS_STORAGE_KEY = 'chatbot_flows';
 const CURRENT_FLOW_KEY = 'current_flow_id';
