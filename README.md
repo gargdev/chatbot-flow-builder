@@ -98,7 +98,3 @@ npm run preview
 
 **Anoop Pandey**
 [LinkedIn](https://www.linkedin.com/in/anoop-pandey/) • [GitHub](https://github.com/gargdev)
-
-```
-
-```
